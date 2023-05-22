@@ -4,14 +4,14 @@ import { getFirestore } from 'firebase/firestore';
 import { getAuth } from 'firebase/auth';
 
 const firebaseConfig = {
-  apiKey: 'AIzaSyCERLFmvKhSniniQ8LeXamqq7LubBV9z4c',
-  authDomain: 'rsclonechat.firebaseapp.com',
-  databaseURL: 'https://rsclonechat-default-rtdb.asia-southeast1.firebasedatabase.app',
-  projectId: 'rsclonechat',
-  storageBucket: 'rsclonechat.appspot.com',
-  messagingSenderId: '259718149151',
-  appId: '1:259718149151:web:84529b96490885938bd12a',
-  measurementId: 'G-Q2NLWMTECV',
+  apiKey: 'AIzaSyBZtHudTmhytMtsbKcLsiks7JPmaPZ39nU',
+  authDomain: 'tail-and-paws.firebaseapp.com',
+  databaseURL: 'https://tail-and-paws-default-rtdb.europe-west1.firebasedatabase.app/',
+  projectId: 'tail-and-paws',
+  storageBucket: 'tail-and-paws.appspot.com',
+  messagingSenderId: '997731687908',
+  appId: '1:997731687908:web:8dc44d1c08660e28c7fbf1',
+  measurementId: 'G-FLBV9MZ7G5',
 };
 
 // Initialize Firebase
