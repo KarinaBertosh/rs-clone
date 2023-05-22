@@ -1,12 +1,15 @@
 import React from 'react';
-import { render, screen } from '@testing-library/react';
-import UpDateUserModal from './UpDateUserModal';
 import { Provider } from 'react-redux';
+import UpDateUserModal from './UpDateUserModal';
 import { store } from '../store/store';
 
 test('render footer', () => {
   <Provider store={store}>
-    render(<UpDateUserModal onHide={() => false} show={true}
-    />);
-  </Provider>
+    render(
+    <UpDateUserModal
+      onHide={() => false}
+      show
+    />
+    );
+  </Provider>;
 });

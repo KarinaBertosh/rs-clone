@@ -1,13 +1,14 @@
 import React from 'react';
-import { render, screen } from '@testing-library/react';
-import FriendsFilter from './FriendsFilters';
 import { Provider } from 'react-redux';
+import FriendsFilter from './FriendsFilters';
 import { store } from '../store/store';
 
 test('render footer', () => {
   <Provider store={store}>
-    render(<FriendsFilter />);
-  </Provider>
+    render(
+    <FriendsFilter />
+    );
+  </Provider>;
 });
 
 jest.mock('react-router-dom', () => ({

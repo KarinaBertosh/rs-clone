@@ -1,12 +1,13 @@
 import React from 'react';
-import { render, screen } from '@testing-library/react';
-import FindFriendsPage from './FindFriendsPage';
 import { Provider } from 'react-redux';
+import FindFriendsPage from './FindFriendsPage';
 import { store } from '../../components/store/store';
 
 test('render footer', () => {
   <Provider store={store}>
-    render( <FindFriendsPage />
+    render(
+    {' '}
+    <FindFriendsPage />
     );
-  </Provider>
+  </Provider>;
 });
